@@ -16,5 +16,11 @@ description:
 
     <img src="img/bending_jig/image2.jpg" alt="image2">
 
+    <p>The second iteration uses a laser cut bend arm made from steel and 3d printed parts at 100% infill. I started by making the whole thing in CAD and then manufactured it using a bambulab x1 carbon and an Omax waterjet.</p>
+
+    <img src="img/bending_jig/image4.png" alt="image4">
+
+    <img src="img/bending_jig/image3.jpg" alt="image3">
+
   </div>
 ---
