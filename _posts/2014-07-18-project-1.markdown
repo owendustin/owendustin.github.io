@@ -17,4 +17,8 @@ description: |
   <p>Then I waterjet the metal and used the bending jig to create an open box</p>
 
   <img src="img/image2.png" alt="image2" style="display:block; margin-left:auto; margin-right:auto; max-width:100%; height:auto;">
+
+  <p>After this I printed a template and cut out a piece of leather that would be an inner liner of the metal. I used a simple box cutter and a ruler to get sharp lines on the leather which I used a little bit of leather rub to look nice on the edges:</p>
+
+  <img src="img/image3.png" alt="image3" style="display:block; margin-left:auto; margin-right:auto; max-width:100%; height:auto;">
 ---
