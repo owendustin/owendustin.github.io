@@ -8,24 +8,21 @@ project-date:
 client: 
 category: 
 description: |
-  Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+  <p>Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
 
-  ## Project Overview
-  
-  This project involved designing and constructing a cabin that is both functional and aesthetically pleasing. The goal was to create a space that blends in with nature while providing all the necessary amenities for a comfortable stay.
+  <h2>Project Overview</h2>
+  <p>This project involved designing and constructing a cabin that is both functional and aesthetically pleasing. The goal was to create a space that blends in with nature while providing all the necessary amenities for a comfortable stay.</p>
 
-  ![Cabin exterior](img/cabin.png)
+  <h3>Key Features:</h3>
+  <ul>
+    <li>Sustainable materials</li>
+    <li>Open floor plan</li>
+    <li>Energy-efficient windows</li>
+  </ul>
 
-  ### Key Features:
-  - Sustainable materials
-  - Open floor plan
-  - Energy-efficient windows
-  
-  ### Challenges
-  Throughout the construction process, we encountered several challenges, including dealing with weather conditions and sourcing eco-friendly materials. However, we overcame these obstacles by adapting the design and sourcing from local suppliers.
+  <h3>Challenges</h3>
+  <p>Throughout the construction process, we encountered several challenges, including dealing with weather conditions and sourcing eco-friendly materials. However, we overcame these obstacles by adapting the design and sourcing from local suppliers.</p>
 
-
-  ### Final Thoughts
-  The project was a success, and the cabin now stands as a testament to creative design and sustainable building practices.
+  <h3>Final Thoughts</h3>
+  <p>The project was a success, and the cabin now stands as a testament to creative design and sustainable building practices.</p>
 ---
-
