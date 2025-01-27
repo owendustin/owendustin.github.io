@@ -78,6 +78,14 @@ hr.star-primary:after {
     background-color: #000;
 }
 
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+}
+
 .img-centered {
     margin: 0 auto;
 }

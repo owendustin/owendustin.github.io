@@ -12,7 +12,7 @@ description: |
 
   <p>This project involved designing and constructing a cabin that is both functional and aesthetically pleasing. The goal was to create a space that blends in with nature while providing all the necessary amenities for a comfortable stay.</p>
 
-  <img src="img/image1.png" alt="image1">
+  <img src="img/image1.png" alt="image1" style="display:block; margin-left:auto; margin-right:auto; max-width:100%; height:auto;">
 
   <p>The project was a success, and the cabin now stands as a testament to creative design and sustainable building practices.</p>
 ---
