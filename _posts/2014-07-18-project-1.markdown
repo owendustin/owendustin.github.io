@@ -1,6 +1,6 @@
 ---
 layout: default
-modal-id: A
+modal-id: Custom Catchall
 date: 2014-07-18
 img: cabin.png
 alt: image-alt
