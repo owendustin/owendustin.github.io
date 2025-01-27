@@ -14,22 +14,22 @@ description: |
 
     <p>Started by making a 2D design on SolidWorks and decided on making it 6 x 4.5 inches.</p>
 
-    <img src="img/image1.png" alt="image1">
+    <img src="img/catchall/image1.png" alt="image1">
 
     <p>Then I waterjet the metal and used the bending jig to create an open box.</p>
 
-    <img src="img/image2.jpg" alt="image2">
+    <img src="img/catchall/image2.jpg" alt="image2">
 
     <p>After this I printed a template and cut out a piece of leather that would be an inner liner of the metal. I used a simple box cutter and a ruler to get sharp lines on the leather which I used a little bit of leather rub to look nice on the edges.</p>
 
-    <img src="img/image3.jpg" alt="image3">
+    <img src="img/catchall/image3.jpg" alt="image3">
 
     <p>After this was done I just used a simple two part epoxy to adhere the leather to the steel ensuring that the metal was sanded to 120 grit so the epoxy would bond better.</p>
 
-    <img src="img/image4.jpg" alt="image4">
+    <img src="img/catchall/image4.jpg" alt="image4">
 
     <p>After this one I decided to make another version with a thicker darker leather for my grandpa. This one used a very similar design but instead of using epoxy I drilled a hole through the leather and metal and inserted a nail which was then peened over to create a rivet. I like the look of this design and it is a little more sturdy and refined looking than the first attempt.</p>
 
-    <img src="img/image5.jpg" alt="image5">
+    <img src="img/catchall/image5.jpg" alt="image5">
   </div>
 ---
