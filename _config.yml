@@ -1,7 +1,9 @@
 title: Owen Dustin
 email: owenhdustin@gmail.com
 url: https://github.com/jeromelachaud/freelancer-theme
-skills: "Manufacturing Engineer"
+description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+keywords: "your keywords, separated by commas"
+skills: "Web Developer - Graphic Artist - User Experience Designer"
 meta_author: Dustin Owen
 
 # Google webmaster tools
@@ -24,8 +26,8 @@ disqus_shortname: myshortname
 color:
   primary: ffffff #80B3FF
   primary-rgb: "24,288,156" #"128,179,255"
-  secondary: "FF3D00" #FD6E8A
-  secondary-dark: "cf2804" #A2122F
+  secondary: "000000" #FD6E8A
+  secondary-dark: "000000" #A2122F
 
 # Footer settings
 # footer:
