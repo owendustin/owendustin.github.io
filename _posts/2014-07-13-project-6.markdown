@@ -9,4 +9,12 @@ project-date:
 client:
 category:
 description:
+  <div class="content">
+    <p>For this project I needed to create a jig which could create 180 degree bend in a very small pipe with a very small bending radius. I looked all around the market and couldn't find anything with a small enough diameter so I needed to make my own.</p>
+
+    <p>My first prototype was just a block of wood and 3d printed part and i realized the forces where much too high and everything needed to be much stronger</p>
+
+    <img src="img/bending_jig/image2.jpg" alt="image2">
+
+  </div>
 ---
