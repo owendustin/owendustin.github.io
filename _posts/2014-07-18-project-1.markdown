@@ -14,7 +14,7 @@ description: |
   <p>This project involved designing and constructing a cabin that is both functional and aesthetically pleasing. The goal was to create a space that blends in with nature while providing all the necessary amenities for a comfortable stay.</p>
 
   <h3>Test Image</h3>
-  <img src="img/cabin.png" alt="Cabin image" />
+  <img src="img/profile.png" alt="Cabin image" />
 
   <h3>Key Features:</h3>
   <ul>
