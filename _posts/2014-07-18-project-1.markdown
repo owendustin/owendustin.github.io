@@ -7,5 +7,25 @@ alt: image-alt
 project-date:
 client: 
 category: 
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+description: |
+  Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+
+  ## Project Overview
+  
+  This project involved designing and constructing a cabin that is both functional and aesthetically pleasing. The goal was to create a space that blends in with nature while providing all the necessary amenities for a comfortable stay.
+
+  ![Cabin exterior](img/cabin.png)
+
+  ### Key Features:
+  - Sustainable materials
+  - Open floor plan
+  - Energy-efficient windows
+  
+  ### Challenges
+  Throughout the construction process, we encountered several challenges, including dealing with weather conditions and sourcing eco-friendly materials. However, we overcame these obstacles by adapting the design and sourcing from local suppliers.
+
+
+  ### Final Thoughts
+  The project was a success, and the cabin now stands as a testament to creative design and sustainable building practices.
 ---
+
