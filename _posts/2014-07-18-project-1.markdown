@@ -8,15 +8,15 @@ project-date:
 client: 
 category: 
 description: |
-<p>Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+	<p>Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
 
-<p>This project involved designing and constructing a cabin that is both functional and aesthetically pleasing. The goal was to create a space that blends in with nature while providing all the necessary amenities for a comfortable stay.</p>
+	<p>This project involved designing and constructing a cabin that is both functional and aesthetically pleasing. The goal was to create a space that blends in with nature while providing all the necessary amenities for a comfortable stay.</p>
 
-<img src="img/cabin.png" alt="Cabin image">
+	<img src="img/profile.png" alt="Cabin image">
 
-<p>The cabin features sustainable materials, an open floor plan, and energy-efficient windows.</p>
+	<p>The cabin features sustainable materials, an open floor plan, and energy-efficient windows.</p>
 
-<p>Throughout the construction process, we encountered challenges such as dealing with weather conditions and sourcing eco-friendly materials. However, we overcame these obstacles by adapting the design and sourcing from local suppliers.</p>
+	<p>Throughout the construction process, we encountered challenges such as dealing with weather conditions and sourcing eco-friendly materials. However, we overcame these obstacles by adapting the design and sourcing from local suppliers.</p>
 
-<p>The project was a success, and the cabin now stands as a testament to creative design and sustainable building practices.</p>
+	<p>The project was a success, and the cabin now stands as a testament to creative design and sustainable building practices.</p>
 ---
