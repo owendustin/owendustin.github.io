@@ -1,6 +1,7 @@
 ---
 layout: default
 modal-id: 6
+title: Pipe Bending Jig
 date: 2014-07-15
 img: submarine.png
 alt: image-alt
@@ -9,25 +10,21 @@ client:
 category:
 description |
   <div class="content">
-    <p>I needed somewhere to put my keys in my room so I decided to make my own. I wanted to utilize some of the scrap metal available to me as well as get a chance to use the metal bender and waterjet.</p>
+    <p>For this project I needed to create a jig which could create 180 degree bend in a very small pipe with a very small bending radius. I looked all around the market and couldn't find anything with a small enough diameter so I needed to make my own.</p>
 
-    <p>Started by making a 2D design on SolidWorks and decided on making it 6 x 4.5 inches.</p>
-
-    <img src="img/bending_jig/image1.jpg" alt="image1">
-
-    <p>Then I waterjet the metal and used the bending jig to create an open box.</p>
+    <p>My first prototype was just a block of wood and 3d printed part and i realized the forces where much too high and everything needed to be much stronger</p>
 
     <img src="img/bending_jig/image1.jpg" alt="image1">
 
-    <p>After this I printed a template and cut out a piece of leather that would be an inner liner of the metal. I used a simple box cutter and a ruler to get sharp lines on the leather which I used a little bit of leather rub to look nice on the edges.</p>
+    <p>The second iteration uses a laser cut bend arm made from steel and 3d printed parts at 100% infill. I started by making the whole thing in CAD and then manufactured it using a bambulab x1 carbon and an Omax waterjet.</p>
 
     <img src="img/bending_jig/image1.jpg" alt="image1">
 
-    <p>After this was done I just used a simple two part epoxy to adhere the leather to the steel ensuring that the metal was sanded to 120 grit so the epoxy would bond better.</p>
-
     <img src="img/bending_jig/image1.jpg" alt="image1">
 
-    <p>After this one I decided to make another version with a thicker darker leather for my grandpa. This one used a very similar design but instead of using epoxy I drilled a hole through the leather and metal and inserted a nail which was then peened over to create a rivet. I like the look of this design and it is a little more sturdy and refined looking than the first attempt.</p>
+    <p>This was a much better improvement however the lack of support on the bending arm caused it to bend so I needed to beef it up and make the arm longer so I could get more leverage. I went back into CAD and fixed some things around for a v3. I make the whole thing over again and I landed on this as the final design, it ended up working much better than I thought for such a tight bend.</p>
+
+    <img src="img/bending_jig/image1.jpg" alt="image1">
 
     <img src="img/bending_jig/image1.jpg" alt="image1">
   </div>
