@@ -8,13 +8,15 @@ project-date:
 client:
 category: 
 description: |
-  <p>I needed somewhere to put my keys in my room so I decided to make my own. I wanted to utilize some of the scrap metal available to me as well as get a change to use the metal bender and waterjet.</p>
+  <div class="description">
+    <p>I needed somewhere to put my keys in my room so I decided to make my own. I wanted to utilize some of the scrap metal available to me as well as get a chance to use the metal bender and waterjet.</p>
 
-  <p>Started by making a 2D design on solidworks and decided on making it 6 x 4.5 inches.</p>
+    <p>Started by making a 2D design on SolidWorks and decided on making it 6 x 4.5 inches.</p>
 
-  <img src="img/image1.png" alt="image1" style="display:block; margin-left:auto; margin-right:auto; max-width:100%; height:auto;">
+    <img src="img/image1.png" alt="image1">
 
-  <p>The project was a success, and the cabin now stands as a testament to creative design and sustainable building practices.</p>
+    <p>The project was a success, and the cabin now stands as a testament to creative design and sustainable building practices.</p>
+  </div>
 
-  <img src="img/image2.jpg" alt="image2" style="display:block; margin-left:auto; margin-right:auto; max-width:100%; height:auto;">
+  <img src="img/image2.jpg" alt="image2">
 ---
