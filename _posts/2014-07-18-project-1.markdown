@@ -1,6 +1,6 @@
 ---
 layout: default
-modal-id: 1
+modal-id: Custom Catchall
 date: 2014-07-18
 img: cabin.png
 alt: image-alt
@@ -8,11 +8,13 @@ project-date:
 client: 
 category: 
 description: |
-  <p>Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+  <p>I needed somewhere to put my keys in my room so I decided to make my own. I wanted to utilize some of the scrap metal available to me as well as get a change to use the metal bender and waterjet.</p>
 
-  <p>This project involved designing and constructing a cabin that is both functional and aesthetically pleasing. The goal was to create a space that blends in with nature while providing all the necessary amenities for a comfortable stay.</p>
+  <p>Started by making a 2D design on solidworks and decided on making it 6” x 4.5”.</p>
 
   <img src="img/image1.png" alt="image1" style="display:block; margin-left:auto; margin-right:auto; max-width:100%; height:auto;">
 
-  <p>The project was a success, and the cabin now stands as a testament to creative design and sustainable building practices.</p>
+  <p>Then I waterjet the metal and used the bending jig to create an open box</p>
+
+  <img src="img/image2.png" alt="image2" style="display:block; margin-left:auto; margin-right:auto; max-width:100%; height:auto;">
 ---
