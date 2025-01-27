@@ -2,8 +2,8 @@
 layout: default
 modal-id: 2
 title: Cell Holder
-date: 2014-07-17
-img: image5.jpg
+date: 2014-07-17    
+img: cell_holder_title.jpg
 alt: image-alt
 project-date:
 client:
