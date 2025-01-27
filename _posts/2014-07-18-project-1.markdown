@@ -1,15 +1,5 @@
 ---
 layout: default
-modal-id: leather catchall
-date: 2014-07-18
-img: cabin.png
-alt: image-alt
-project-date:
-client: 
-category: 
-description: |
----
-layout: default
 modal-id: 1
 date: 2014-07-18
 img: cabin.png
@@ -24,7 +14,7 @@ description: |
   <p>This project involved designing and constructing a cabin that is both functional and aesthetically pleasing. The goal was to create a space that blends in with nature while providing all the necessary amenities for a comfortable stay.</p>
 
   <h3>Test Image</h3>
-  <img src="img/profile.png" alt="Cabin image" />
+  <img src="img/cabin.png" alt="Cabin image" />
 
   <h3>Key Features:</h3>
   <ul>
@@ -38,6 +28,4 @@ description: |
 
   <h3>Final Thoughts</h3>
   <p>The project was a success, and the cabin now stands as a testament to creative design and sustainable building practices.</p>
----
-
 ---
