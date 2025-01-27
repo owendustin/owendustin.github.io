@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\_includes",
+    "\\_layouts"
   ],
-  "SelectedNode": "\\C:\\Users\\owenh\\source\\repos\\take2",
+  "SelectedNode": "\\_includes\\portfolio_grid.html",
   "PreviewInSolutionExplorer": false
 }
