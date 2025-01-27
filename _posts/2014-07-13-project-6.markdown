@@ -3,7 +3,7 @@ layout: default
 modal-id: 6
 title: Pipe Bending Jig
 date: 2014-07-15
-img: submarine.png
+img: bending_jig/image3.jpg
 alt: image-alt
 project-date:
 client:
