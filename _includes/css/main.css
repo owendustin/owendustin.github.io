@@ -78,25 +78,11 @@ hr.star-primary:after {
     background-color: #000;
 }
 
-
-.description {
-    width: 80%; /* Set the width you want */
-    max-width: 1000px; /* Optional: Limit the max width */
-    margin-left: auto;
-    margin-right: auto; /* Centers the content */
-    padding-left: 20px; /* Optional: Add padding for spacing */
-    padding-right: 20px; /* Optional: Add padding for spacing */
-}
-
-.description p {
-    font-size: 16px; /* Adjust font size */
-}
-
-.description img {
+img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    max-width: 100%; /* Ensure images are responsive */
+    max-width: 100%;
     height: auto;
 }
 
