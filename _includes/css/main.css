@@ -1,6 +1,8 @@
-/* Updated CSS: Removed the star and kept a straight line */
-
-/*! * Start Bootstrap - Freelancer Bootstrap Theme (http://startbootstrap.com) * Code licensed under the Apache License v2.0. * For details, see http://www.apache.org/licenses/LICENSE-2.0. */
+/*!
+ * Start Bootstrap - Freelancer Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
 
 body {
     overflow-x: hidden;
@@ -54,9 +56,33 @@ hr.star-primary {
     overflow: visible;
 }
 
-/* Removed star-related styles */
+    hr.star-light:after,
+    hr.star-primary:after {
+        content: "\f005";
+        display: inline-block;
+        position: relative;
+        top: -.8em;
+        padding: 0 .25em;
+        font-family: FontAwesome;
+        font-size: 2em;
+    }
+
 hr.star-light {
     border-color: #000;
+}
+
+    hr.star-light:after {
+        color: #000;
+        background-color: #
+
+{
+
+{
+    site .color.primary
+}
+
+}
+;
 }
 
 hr.star-primary {
@@ -70,6 +96,20 @@ hr.star-primary {
 
 }
 ;
+}
+
+hr.star-primary:after {
+    color: #
+
+{
+
+{
+    site .color.secondary
+}
+
+}
+;
+background-color: #000;
 }
 
 .img-centered {
