@@ -1,6 +1,6 @@
 ---
 layout: default
-modal-id: Custom Catchall
+modal-id: A
 date: 2014-07-18
 img: cabin.png
 alt: image-alt
@@ -8,7 +8,7 @@ project-date:
 client: 
 category: 
 description: |
-  <p>I needed somewhere to put my keys in my room so I decided to make my own. I wanted to utilize some of the scrap metal available to me as well as get a change to use the metal bender and waterjet.</p>
+  <p>Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
 
   <p>This project involved designing and constructing a cabin that is both functional and aesthetically pleasing. The goal was to create a space that blends in with nature while providing all the necessary amenities for a comfortable stay.</p>
 
