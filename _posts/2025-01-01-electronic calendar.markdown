@@ -1,7 +1,7 @@
 ---
 layout: default
 modal-id: 10
-title: Calendar
+title: Digital Calendar
 date: 2008-01-01
 order: 1
 img: electronic_calendar_title.jpg
