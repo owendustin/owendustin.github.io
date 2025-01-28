@@ -30,7 +30,7 @@ description: |
       Your browser does not support the video tag.
     </video>
 
-    <p>Then I made a pedestal for it to sit on top of and added a screen to display information</p>
+    <p>Then I made a pedestal for it to sit on top of and added a screen to display information.</p>
 
     <img src="img/robotic_arm/image1.jpg" alt="image1">
 
