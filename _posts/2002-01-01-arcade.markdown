@@ -1,0 +1,37 @@
+---
+layout: default
+modal-id: 10
+title: Digital Calendar
+date: 2008-01-01
+order: 1
+img: arcade_title.jpg
+alt: image-alt
+project-date:
+client:
+category:
+description:
+  <div class="content">
+    <p>This is an arcade machine that I built for my grade 12 capstone project. It was made using a raspberry pi and a set of buttons and joysticks. The design is custom and I made it using autodesk inventor. </p>
+
+    <p>Unfortunately I lost the CAD files but it was made using autodesk inventor and modeled the shape and construction of the machine.</p>
+
+    <p>After I designed the thing I tested out buttons and joysticks on an old monitor that I was going to use.</p>
+
+    <img src="img/arcade/image1.jpg" alt="image1">
+
+    <p>After the electronics were tested I started making the wooden casing. I referenced the CAD and made paper templates which were cut on a skill saw and jigsaw.</p>
+
+    <img src="img/arcade/image2.png" alt="image3">
+
+    <p>The entire thing was brad nailed together and used woodglue to keep the entire thing secured. </p>
+
+    <p>Once that was done I drilled out holes for buttons and strapped a monitor screen on.</p>
+
+    <img src="img/arcade/image5.png" alt="image5">
+
+    <p>Once it was finished I simply added the sides on and attached all of the electronics on the inside.</p>
+
+    <img src="img/arcade/image3.jpg" alt="image3">
+  </div>
+
+---
