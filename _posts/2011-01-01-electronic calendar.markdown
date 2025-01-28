@@ -30,14 +30,6 @@ description:
 
     <p>600 mAh lipo battery - scraped from a broken mp3 player</p>
 
-    <p>With components sourced I used digital calipers to CAD all of the components individually and then designed a frame and mounting for all the parts. I then 3d printed the case and added all of the parts into the enclosure.</p>
 
-    <img src="img/electronic_calendar/image5.png" alt="image5">
-
-    <p>Now I moved onto the most challenging portion for me, the software. I used the arduino ide with an esp32 to code the entire thing. I used the google calendar api documentation to implement a system where the esp could get access to all of the calendar events for a given month. This was then formatted into a dictionary with each date corresponding to the event name. These could then be displayed onto the screen in a list view on the left with each name as well as a small dot on the calendar view to see if anything was happening that day</p>
-
-    <img src="img/electronic_calendar/image2.png" alt="image2">
-
-    <p>In the future I want to add more functionality like a rotary encoder to switch between views and add a clock and stopwatch feature to the clock. This is one of my favourite projects due to how much I use it and I want to polish up some of the code and hardware so I can release the open source code and 3D files so others can make it too.</p>
   </div>
 ---
