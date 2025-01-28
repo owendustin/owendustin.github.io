@@ -1,0 +1,29 @@
+---
+layout: default
+modal-id: 7
+title: Welded Lid
+date: 2025-01-27
+img: lid_title.jpg
+alt: image-alt
+project-date:
+client:
+category:
+description: |
+  <div class="content">
+    <p></p>
+
+    <p></p>
+
+    <img src="img/folder/image1.png" alt="image1">
+
+    <p></p>
+
+    <img src="img/folder/image2.png" alt="image2">
+
+    <p></p>
+
+    <img src="img/folder/image3.png" alt="image3">
+
+    <p></p>
+  </div>
+---
