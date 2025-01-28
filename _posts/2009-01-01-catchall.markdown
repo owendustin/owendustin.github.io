@@ -3,6 +3,7 @@ layout: default
 modal-id: 1
 title: Catchall
 date: 2009-01-01
+order: 3
 img: image5.jpg
 alt: image-alt
 project-date:

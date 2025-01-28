@@ -3,6 +3,7 @@ layout: default
 modal-id: 6
 title: Pipe Bending Jig
 date: 2010-01-01
+order: 1
 img: bending_jig_cover.jpg
 alt: image-alt
 project-date:
