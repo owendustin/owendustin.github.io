@@ -1,8 +1,8 @@
 ---
 layout: default
-modal-id: 8
+modal-id: 10
 title: Electronic Calendar
-date: 
+date: 2025-01-29
 img: submarine.png
 alt: image-alt
 project-date:
