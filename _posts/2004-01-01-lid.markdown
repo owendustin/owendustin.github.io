@@ -3,7 +3,7 @@ layout: default
 modal-id: 7
 title: Welded Lid
 date: 2004-01-01
-order: 4
+order: 5
 img: lid_title.jpg
 alt: image-alt
 project-date:
