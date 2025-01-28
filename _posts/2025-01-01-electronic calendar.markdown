@@ -3,7 +3,7 @@ layout: default
 modal-id: 1
 title: Calendar
 date: 2008-01-01
-order: 3
+order: 1
 img: submarine.png
 alt: image-alt
 project-date:
