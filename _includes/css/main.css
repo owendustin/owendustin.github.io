@@ -477,7 +477,7 @@ footer .footer-below {
 .portfolio-modal .close-modal .lr {
     z-index: 1051;
     width: 1px;
-    height: 75px;
+    height: 75px;`
     margin-left: 35px;
     background-color: #{{ site.color.secondary }};
     -webkit-transform: rotate(45deg);
@@ -495,8 +495,8 @@ footer .footer-below {
     transform: rotate(90deg);
 }
 
-.navbar-nav>.active>a {
-    background-color: #{{ site.color.secondary-dark }} !important;
+.navbar {
+    background-color: #{{ site.color.header }} !important;
 }
 
 /* Fix modal mouse wheel issues */
