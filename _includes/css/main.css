@@ -136,23 +136,23 @@ header .intro-text .name {
         background-color: #3498db; /* Set navbar color */
     }
 
-        .navbar-fixed-top .navbar-brand {
-            font-size: 2em;
-            -webkit-transition: all .3s;
-            -moz-transition: all .3s;
-            transition: all .3s;
-            color: white; /* Ensure navbar brand text is visible */
-        }
+    .navbar-fixed-top .navbar-brand {
+         font-size: 2em;
+         -webkit-transition: all .3s;
+         -moz-transition: all .3s;
+         transition: all .3s;
+         color: white; /* Ensure navbar brand text is visible */
+    }
 
-        .navbar-fixed-top.navbar-shrink {
-            padding: 10px 0;
-            background-color: #2980b9; /* Darker when scrolled */
-        }
+    .navbar-fixed-top.navbar-shrink {
+         padding: 10px 0;
+         background-color: #2980b9; /* Darker when scrolled */
+    }
 
-            .navbar-fixed-top.navbar-shrink .navbar-brand {
-                font-size: 1.5em;
-                color: white; /* Keep text visible */
-            }
+    .navbar-fixed-top.navbar-shrink .navbar-brand {
+          font-size: 1.5em;
+          color: white; /* Keep text visible */
+    }
 }
 
 .navbar {
