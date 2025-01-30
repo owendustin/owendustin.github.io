@@ -105,7 +105,7 @@ img {
 }
 
 .name {
-    background: linear-gradient(180deg, #ff6600, #ffcc00);
+    background: linear-gradient(180deg, #1F3864, #0b1930);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bold;
@@ -192,17 +192,17 @@ header .intro-text .skills {
     font-weight: 700;
 }
 
-    .navbar a:focus {
-        outline: 0;
-    }
+.navbar a:focus {
+    outline: 0;
+}
 
-    .navbar .navbar-nav {
-        letter-spacing: 1px;
-    }
+.navbar .navbar-nav {
+    letter-spacing: 1px;
+}
 
-        .navbar .navbar-nav li a:focus {
-            outline: 0;
-        }
+.navbar .navbar-nav li a:focus {
+    outline: 0;
+}
 
 .navbar-default,
 .navbar-inverse {
