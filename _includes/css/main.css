@@ -105,12 +105,13 @@ img {
 }
 
 .name {
-    background: linear-gradient(180deg, #1F3864, #000000); /* Adjust colors as needed */
+    background: linear-gradient(180deg, #ff6600, #ffcc00);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-weight: bold; /* Optional: Makes the text bold */
+    font-weight: bold;
+    display: inline-block;
+    white-space: pre-wrap; /* Keeps words separate but wraps when needed */
 }
-
 
 header {
     text-align: center;
