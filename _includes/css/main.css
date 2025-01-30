@@ -92,7 +92,8 @@ hr.star-primary:after {
 }
 
 img {
-    display: block;
+    display: block;<span class="name" style="display: inline; margin-left: 10px;">{{ site.title }}</span>
+
     margin-left: auto;
     margin-right: auto;
     max-width: 80%;
@@ -104,7 +105,7 @@ img {
 }
 
 .name {
-    background: linear-gradient(90deg, #ff6600, #ffcc00); /* Adjust colors as needed */
+    background: linear-gradient(90deg, #1F3864, #000000); /* Adjust colors as needed */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bold; /* Optional: Makes the text bold */
