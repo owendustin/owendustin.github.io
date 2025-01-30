@@ -103,6 +103,14 @@ img {
     margin: 0 auto;
 }
 
+.name {
+    background: linear-gradient(90deg, #ff6600, #ffcc00); /* Adjust colors as needed */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold; /* Optional: Makes the text bold */
+}
+
+
 header {
     text-align: center;
     color: #000;
