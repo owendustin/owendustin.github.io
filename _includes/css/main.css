@@ -127,48 +127,32 @@ header .intro-text .name {
     font-weight: 700;
 }
 
-header .intro-text .skills {
-    font-size: 1.25em;
-    font-weight: 300;
-}
-
-@media(min-width:768px) {
-    header .container {
-        padding-top: 200px;
-        padding-bottom: 100px;
-    }
-
-    header .intro-text .name {
-        font-size: 4.75em;
-    }
-
-    header .intro-text .skills {
-        font-size: 1.75em;
-    }
-}
-
 @media(min-width:768px) {
     .navbar-fixed-top {
         padding: 25px 0;
-        -webkit-transition: padding .3s;
-        -moz-transition: padding .3s;
-        transition: padding .3s;
+        -webkit-transition: padding .3s, background-color .3s;
+        -moz-transition: padding .3s, background-color .3s;
+        transition: padding .3s, background-color .3s;
+        background-color: #3498db; /* Set navbar color */
     }
 
-    .navbar-fixed-top .navbar-brand {
-        font-size: 2em;
-        -webkit-transition: all .3s;
-        -moz-transition: all .3s;
-        transition: all .3s;
-    }
+        .navbar-fixed-top .navbar-brand {
+            font-size: 2em;
+            -webkit-transition: all .3s;
+            -moz-transition: all .3s;
+            transition: all .3s;
+            color: white; /* Ensure navbar brand text is visible */
+        }
 
-    .navbar-fixed-top.navbar-shrink {
-        padding: 10px 0;
-    }
+        .navbar-fixed-top.navbar-shrink {
+            padding: 10px 0;
+            background-color: #2980b9; /* Darker when scrolled */
+        }
 
-    .navbar-fixed-top.navbar-shrink .navbar-brand {
-        font-size: 1.5em;
-    }
+            .navbar-fixed-top.navbar-shrink .navbar-brand {
+                font-size: 1.5em;
+                color: white; /* Keep text visible */
+            }
 }
 
 .navbar {
@@ -192,6 +176,15 @@ header .intro-text .skills {
 .navbar-default,
 .navbar-inverse {
     border: 0;
+    background-color: #3498db; /* Ensures both navbar styles have the new color */
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: white; /* Ensures links are visible */
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #ecf0f1;
 }
 
 section {
