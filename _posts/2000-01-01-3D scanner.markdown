@@ -4,7 +4,7 @@ modal-id: 20
 title: 3D scanning
 date: 2004-01-01
 order: 4
-img: image1.jpg
+img: 3D_scanning_title.jpg
 alt: image-alt
 project-date:
 client:
@@ -17,14 +17,14 @@ description: |
 
     <p>The scanner that we used was an EinScan HX2.</p>
 
-    <img src="img/lid/image3.png" alt="image3">
+    <img src="img/3D_scanning/image3.png" alt="image3">
 
     <p>We used these tracking dots as well as orange markers so the scanner could get accurate readings.</p>
 
-    <img src="img/lid/image2.jpg" alt="image2">
+    <img src="img/3D_scanning/image2.jpg" alt="image2">
 
      <p>After doing numerous scans we ended up with a model we were happy with and moving forward I am going to be doing some post processing and triangle optimization to keep the file small so it doesn't crash Solidworks.</p>
 
-    <img src="img/lid/image1.jpg" alt="image1">
+    <img src="img/3D_scanning/image1.jpg" alt="image1">
   </div>
 ---
