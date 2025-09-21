@@ -341,7 +341,7 @@ That's it! Your project will appear automatically.`
     }
 }
 
-// Initialize the application when DOM is loaded
+// Initialize the application when DOM is loaded JUST WORK
 document.addEventListener('DOMContentLoaded', () => {
     new PortfolioApp();
 });
