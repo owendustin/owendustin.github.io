@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Owen Dustin - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Add Marked.js for proper markdown parsing -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/7.0.5/marked.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="name">Owen Dustin</h1>
+        </div>
+        
+        <h2 class="projects-header">Pr<span class="gear-letter"></span>jects</h2>
+        
+        <div class="projects-grid" id="projectsGrid">
+            <div class="loading">Loading projects...</div>
+        </div>
+    </div>
+
+    <div id="projectModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-body" id="modalBody">
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
