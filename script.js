@@ -15,13 +15,19 @@ class PortfolioApp {
 
     async loadProjects() {
         try {
+            console.log('Attempting to load projects.json from:', 'projects/projects.json');
+            
             // Load the project list from projects.json
             const response = await fetch('projects/projects.json');
+            console.log('projects.json response status:', response.status);
+            
             if (!response.ok) {
-                throw new Error('Failed to load projects list');
+                console.error('Failed to load projects.json:', response.status, response.statusText);
+                throw new Error(`Failed to load projects list: ${response.status} ${response.statusText}`);
             }
             
             const projectList = await response.json();
+            console.log('Loaded project list:', projectList);
             this.projects = [];
 
             // Load each project's markdown content
@@ -32,14 +38,16 @@ class PortfolioApp {
                         `projects/${project.folder}/${project.file}` : 
                         `projects/${project.file}`;
                     
+                    console.log('Attempting to load project from:', projectPath);
+                    
                     const markdownResponse = await fetch(projectPath);
+                    console.log(`${projectPath} response status:`, markdownResponse.status);
+                    
                     if (markdownResponse.ok) {
                         const markdownContent = await markdownResponse.text();
-                        console.log('Raw markdown content:', markdownContent.substring(0, 200) + '...');
+                        console.log(`Loaded ${projectPath}, content length:`, markdownContent.length);
                         
                         const { frontMatter, content } = this.parseFrontMatter(markdownContent);
-                        console.log('Parsed front matter:', frontMatter);
-                        console.log('Parsed content:', content.substring(0, 100) + '...');
                         
                         // Update image paths to be relative to project folder
                         const processedContent = this.updateImagePaths(content, project.folder);
@@ -50,35 +58,31 @@ class PortfolioApp {
                             title: frontMatter.title || project.title || 'Untitled Project',
                             icon: frontMatter.icon || project.icon || '📄',
                             image: frontMatter.image ? this.getProjectImagePath(frontMatter.image, project.folder) : project.image,
-                            progress: frontMatter.progress || '',
-                            date: frontMatter.date || '',
-                            skills: frontMatter.skills || '',
-                            difficulty: frontMatter.difficulty || '',
+                            progress: frontMatter.progress || 'Completed',
+                            date: frontMatter.date || 'Recent',
+                            skills: frontMatter.skills || 'Web Development',
+                            difficulty: frontMatter.difficulty || 'Intermediate',
                             content: processedContent
                         });
-                        
-                        // Debug: Log the final project data
-                        const lastProject = this.projects[this.projects.length - 1];
-                        console.log('Final project data:', {
-                            title: lastProject.title,
-                            image: lastProject.image,
-                            icon: lastProject.icon
-                        });
+                    } else {
+                        console.error(`Failed to load ${projectPath}:`, markdownResponse.status, markdownResponse.statusText);
                     }
                 } catch (error) {
-                    console.warn(`Failed to load project ${project.file}:`, error);
+                    console.error(`Error loading project ${project.file}:`, error);
                 }
             }
 
+            console.log('Final projects loaded:', this.projects.length);
+
             if (this.projects.length === 0) {
-                this.showError('No projects found. Add some .md files to the projects folder!');
+                this.showError('No projects found. Check the console for loading errors.');
                 return;
             }
 
             this.renderProjects();
 
         } catch (error) {
-            console.error('Error loading projects:', error);
+            console.error('Error in loadProjects:', error);
             this.showFallbackProjects();
         }
     }
@@ -277,7 +281,7 @@ That's it! Your project will appear automatically.`
                         <span class="meta-value">${project.skills}</span>
                     </div>
                     <div class="project-meta-item">
-                        <span class="meta-label">Technical Difficulty:</span>
+                        <span class="meta-label">Difficulty:</span>
                         <span class="meta-value">${project.difficulty}</span>
                     </div>
                 </div>
