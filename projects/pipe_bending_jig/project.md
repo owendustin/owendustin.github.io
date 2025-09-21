@@ -1,5 +1,5 @@
 ---
-title: "My Web Application"
+title: "Pipe Bending Jig"
 image: "thumbnail.jpg"
 progress: "Completed"
 date: "Nov 2024"
