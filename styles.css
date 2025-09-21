@@ -22,7 +22,7 @@ body {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 10rem 2rem 3rem 2rem;  /* top right bottom left */
+    padding: 4rem 2rem 2rem 2rem;  /* top right bottom left */
     min-height: 100vh;
     display: flex;
     flex-direction: column;
