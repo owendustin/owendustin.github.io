@@ -198,13 +198,13 @@ body {
 }
 
 .close {
-    color: #aaa;
+    color: #ea1111;
     float: right;
     font-size: 32px;
     font-weight: bold;
     cursor: pointer;
     position: fixed;
-    left: 2rem;
+    left: 4rem;
     top: 2rem;
     z-index: 1001;
     background: rgba(255, 255, 255, 0.9);
@@ -370,7 +370,7 @@ body {
     }
 
     .close {
-        right: 1rem;
+        left: 1rem;
         top: 1rem;
         width: 40px;
         height: 40px;
