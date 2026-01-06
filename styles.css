@@ -204,7 +204,7 @@ body {
     font-weight: bold;
     cursor: pointer;
     position: fixed;
-    right: 2rem;
+    left: 2rem;
     top: 2rem;
     z-index: 1001;
     background: rgba(255, 255, 255, 0.9);
