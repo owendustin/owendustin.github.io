@@ -282,7 +282,7 @@ That's it! Your project will appear automatically.`
                     </div>
                     // <div class="project-meta-item">
                     //    <span class="meta-label">Difficulty:</span>
-                    //    <span class="meta-value">${project.difficulty}</span>
+                    //       <span class="meta-value">${project.difficulty}</span>
                     // </div>
                 </div>
             `;
