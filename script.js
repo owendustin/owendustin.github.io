@@ -61,7 +61,6 @@ class PortfolioApp {
                             progress: frontMatter.progress || 'Completed',
                             date: frontMatter.date || 'Recent',
                             skills: frontMatter.skills || 'Web Development',
-                            difficulty: frontMatter.difficulty || 'Intermediate',
                             content: processedContent
                         });
                     } else {
@@ -280,10 +279,6 @@ That's it! Your project will appear automatically.`
                         <span class="meta-label">Skills:</span>
                         <span class="meta-value">${project.skills}</span>
                     </div>
-                    // <div class="project-meta-item">
-                    //    <span class="meta-label">Difficulty:</span>
-                    //       <span class="meta-value">${project.difficulty}</span>
-                    // </div>
                 </div>
             `;
             
@@ -341,7 +336,7 @@ That's it! Your project will appear automatically.`
     }
 }
 
-// Initialize the application when DOM is loaded JUST WORK
+// Initialize the application when DOM is loaded
 document.addEventListener('DOMContentLoaded', () => {
     new PortfolioApp();
 });
