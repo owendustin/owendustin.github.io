@@ -1,5 +1,6 @@
 ---
 title: "E-Ink Digital Calendar"
+description: "Displays google calendar events on an e-ink screen"
 image: "thumbnail.jpg"
 progress: "Completed"
 date: "Sept 2025"

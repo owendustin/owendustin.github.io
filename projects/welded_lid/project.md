@@ -1,5 +1,6 @@
 ---
 title: "Welded Lid"
+description: "Lid for battery pack"
 image: "thumbnail.jpg"
 progress: "Completed"
 date: "Mar 2024"

@@ -1,5 +1,6 @@
 ---
 title: "Catchall"
+description: "Storage for keys and trinkets"
 image: "thumbnail.jpg"
 progress: "Completed"
 date: "Dec 2024"

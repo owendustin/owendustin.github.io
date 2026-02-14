@@ -1,5 +1,6 @@
 ---
 title: "3D Scanning"
+description: "as seen in avatar part 3"
 image: "thumbnail.jpg"
 progress: "Completed"
 date: "Nov 2024"
