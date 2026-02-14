@@ -1,5 +1,6 @@
 ---
 title: "Battery Cell Holders"
+description: "For batteries!"
 image: "thumbnail.jpg"
 progress: "Completed"
 date: "March 2025"

@@ -58,6 +58,7 @@ class PortfolioApp {
                             title: frontMatter.title || project.title || 'Untitled Project',
                             icon: frontMatter.icon || project.icon || '📄',
                             image: frontMatter.image ? this.getProjectImagePath(frontMatter.image, project.folder) : project.image,
+                            description: frontMatter.description || project.description || '',
                             progress: frontMatter.progress || 'Completed',
                             date: frontMatter.date || 'Recent',
                             skills: frontMatter.skills || 'Web Development',
@@ -266,6 +267,7 @@ That's it! Your project will appear automatically.`
             projectCard.innerHTML = `
                 <div class="project-title-top">${project.title}</div>
                 ${iconElement}
+                ${project.description ? `<p class="project-description">${project.description}</p>` : ''}
                 <div class="project-meta">
                     <div class="project-meta-item">
                         <span class="meta-label">Progress:</span>
