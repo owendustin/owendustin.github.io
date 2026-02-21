@@ -132,17 +132,16 @@ class PortfolioApp {
             return `![${alt}](projects/${projectFolder}/${src})`;
         });
 
-        updatedContent = updatedContent.replace(/<source\s+src="(?!https?:\/\/)([^"]+)"/g, (match, src) => {
-            if (src.startsWith('/') || src.startsWith('projects/')) {
-                return match;
-            }
+        // Rewrite src inside any <source ...> tag, regardless of attribute order
+        updatedContent = updatedContent.replace(/(<source\b[^>]*?\s)src="(?!https?:\/\/|\/|projects\/)([^"]+)"/g, (match, prefix, src) => {
+            return `${prefix}src="projects/${projectFolder}/${src}"`;
+        });
+        // Also handle <source src="..."> where src is the very first attribute
+        updatedContent = updatedContent.replace(/<source src="(?!https?:\/\/|\/|projects\/)([^"]+)"/g, (match, src) => {
             return `<source src="projects/${projectFolder}/${src}"`;
         });
 
-        updatedContent = updatedContent.replace(/<video([^>]*)\s+src="(?!https?:\/\/)([^"]+)"/g, (match, attrs, src) => {
-            if (src.startsWith('/') || src.startsWith('projects/')) {
-                return match;
-            }
+        updatedContent = updatedContent.replace(/<video([^>]*)\s+src="(?!https?:\/\/|\/|projects\/)([^"]+)"/g, (match, attrs, src) => {
             return `<video${attrs} src="projects/${projectFolder}/${src}"`;
         });
 
@@ -339,13 +338,15 @@ That's it! Your project will appear automatically.`
         marked.setOptions({
             breaks: true,
             gfm: true,
-            tables: true,
-            sanitize: false,
-            smartLists: true,
-            smartypants: true
         });
 
-        return marked.parse(markdown);
+        let html = marked.parse(markdown);
+
+        // marked.js sometimes wraps block-level HTML like <video> inside <p> tags,
+        // which breaks playback. Unwrap any <video> tags that got wrapped in <p>.
+        html = html.replace(/<p>(\s*<video[\s\S]*?<\/video>\s*)<\/p>/gi, '$1');
+
+        return html;
     }
 }
 
