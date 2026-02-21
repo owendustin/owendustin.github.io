@@ -1,0 +1,47 @@
+[
+    {
+        "id": "robotic_arm",
+        "folder": "robotic_arm",
+        "file": "project.md"
+    },
+    {
+        "id": "digital_calendar",
+        "folder": "digital_calendar",
+        "file": "project.md"
+    },
+    {
+        "id": "cell_holder",
+        "folder": "cell_holder",
+        "file": "project.md"
+    },
+    {
+        "id": "3ds_scanning",
+        "folder": "3d_scanning",
+        "file": "project.md"
+    },
+    {
+        "id": "pipe_bending_jig",
+        "folder": "pipe_bending_jig",
+        "file": "project.md"
+    },
+    {
+        "id": "arcade",
+        "folder": "arcade",
+        "file": "project.md"
+    },
+    {
+        "id": "welded_lid",
+        "folder": "welded_lid",
+        "file": "project.md"
+    },
+    {
+        "id": "catchall",
+        "folder": "catchall",
+        "file": "project.md"
+    },
+    {
+        "id": "shop_organization",
+        "folder": "shop_organization",
+        "file": "project.md"
+    }
+]
