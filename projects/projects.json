@@ -10,6 +10,11 @@
         "file": "project.md"
     },
     {
+        "id": "machined_dice",
+        "folder": "machined_dice",
+        "file": "project.md"
+    },
+    {
         "id": "cell_holder",
         "folder": "cell_holder",
         "file": "project.md"
@@ -37,11 +42,6 @@
     {
         "id": "catchall",
         "folder": "catchall",
-        "file": "project.md"
-    },
-    {
-        "id": "shop_organization",
-        "folder": "shop_organization",
         "file": "project.md"
     }
 ]
