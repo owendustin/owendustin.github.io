@@ -7,6 +7,8 @@ skills: "Solidworks, DFA, DFM, Electronics"
 difficulty: "&#9733; &#9733; &#9733; &#9733; &#9733;"
 ---
 
+# Bartending Robot
+
 This project is a bartending robot intended to deliver a two-part mixed drink to the user. The user first places the cup in the holder and a linear gantry moved the cup to station 1 to be fixed with the first part, station 2 for the second and finally is left at the end for pickup. 
 
 The project is powered using a keyence KV-40DT PLC. Which controls the drink actuation, gantry positioning, input buttons and indicators. 
