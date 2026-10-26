@@ -1,5 +1,10 @@
 [
     {
+        "id": "bartending robot",
+        "folder": "bartending_robot",
+        "file": "project.md"
+    },
+    {
         "id": "robotic_arm",
         "folder": "robotic_arm",
         "file": "project.md"
