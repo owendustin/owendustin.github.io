@@ -42,6 +42,13 @@ body {
     font-family: 'Verdana', serif;
 }
 
+.subtitle {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 300;
+    font-family: 'Verdana', serif;
+}
+
 .projects-header {
     font-size: 2rem;
     font-weight: 300;
